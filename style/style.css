@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display';
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    background-color:hsl(225, 100%, 94%)
+
+}
+.container{
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+ 
+}
+.container_img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.container_titles{
+  text-align: center;
+  font-size: 13px;
+   
+    
+}
+.container_titles p{
+    padding: 15px;
+    color: hsl(224, 23%, 55%);
+   font-size: 12px;
+
+   
+}
+.container_titles h1{
+    padding-top: 15px;
+    color:hsl(223, 47%, 23%);
+    
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 260px;
+    margin-left: 20px;
+
+}
+.price{
+    margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   font-size: 12px;
+   position: relative;
+   right: 17px;
+   
+}
+.price p{
+    color:  hsl(224, 23%, 55%);
+    font-size: 12px;
+    padding: 1.5px;
+   
+}
+ .icon{
+     display: flex;
+     position: relative;
+     right: 5px;
+ }
+.btn-change{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color:  hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+  }
+  .botones .payment button{
+    margin-top: 10px;
+      border: none;
+      width: 240px;
+      background-color:  hsl(245, 75%, 52%);
+      color: white;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'Red Hat Display';
+      font-weight: bold;
+      font-size: 12px;
+     
+  }
+  .botones .cancel button{
+    border: none;
+    background-color:  transparent;
+    color: hsl(224, 23%, 55%);
+    padding: 20px;
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 12px;
+  }
